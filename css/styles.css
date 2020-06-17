@@ -1,0 +1,233 @@
+*{    margin:0px;    padding:0px; }
+html{
+    background-color: #dbdbdb;
+}
+#pagina{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 100%;
+}
+#cuerpo{
+    width: 100%;
+    padding: none;
+}
+/*Cabecera*/
+    header{
+        background-color: #b2ff59;
+    }
+
+    nav{
+        background-color: #64dd17;
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav ul li{
+        width: 100%;
+        font-size: 18pt;
+        justify-content: center;
+        list-style: none;
+        margin: 1%;
+    }
+    nav ul li a{
+        justify-content: center;
+        text-decoration: none;
+        padding: 10px 15px 10px 15px;
+        color: black;
+    }
+    nav ul li a:hover{
+        justify-content: center;
+        margin-block: 25%;
+        color: white;
+        background-color: #b2ff59;
+    }
+    .cabecera{
+        width: 100%;
+    }
+    #cabeza{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+/*Cabecera*/
+
+/*Texto*/
+    .titulo{
+        text-align: center;
+        font-size: 30px;
+    }
+    .parrafo{
+        text-align: justify;
+        font-size: 18px;
+    }
+    .info{
+        text-align: center;
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 24;
+    }
+    ul li{
+        list-style: none;
+    }
+/*Texto*/
+
+/*Cuerpo*/
+    .capsula{
+        margin: 3% 80% 10% 0%;
+        border: 20px 100px 20px 0px;
+        padding: 20px 100px 20px 0px;
+        width: 100%;
+    }
+    .sitioTuristico{
+        margin: 3% 80% 10% 0%;
+        border: 20px 100px 20px 0px;
+        padding: 20px 100px 20px 0px;
+        width: 100%;
+    }
+/*Cuerpo*/
+
+/*Imagenes*/
+    .iconoGrande{
+        width: 350px;
+        float: left;
+        padding-right: 15px;
+        margin-right: 5%;
+    }
+    .imagenTurismo{
+        width: 350px;
+        float: left;
+        padding-right: 15px;
+        margin-right: 5%;
+    }
+/*Imagenes*/
+
+footer{
+    width: 100%;
+    padding-top: 5%;
+    margin-top: 20px;
+}
+
+@media(max-width: 700px){
+    *{    margin:0px;    padding:0px; }
+html{
+    background-color: #dbdbdb;
+}
+#pagina{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 100%;
+}
+#cuerpo{
+    width: 100%;
+    padding: none;
+}
+/*Cabecera*/
+    header{
+        background-color: #b2ff59;
+    }
+
+    nav{
+        background-color: #64dd17;
+        width: 100%;
+        justify-content: center;
+    }
+    nav ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul li{
+        width: 100%;
+        font-size: 16pt;
+        justify-content: center;
+        list-style: none;
+        margin: 1%;
+    }
+    nav ul li a{
+        justify-content: center;
+        text-decoration: none;
+        padding: 10px 15px 10px 15px;
+        color: black;
+    }
+    nav ul li a:hover{
+        justify-content: center;
+        margin-block: 25%;
+        color: white;
+        background-color: #b2ff59;
+    }
+    .cabecera{
+        width: 100%;
+    }
+    #cabeza{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+/*Cabecera*/
+
+/*Texto*/
+    .titulo{
+        text-align: center;
+        font-size: 20px;
+    }
+    .parrafo{
+        text-align: justify;
+        font-size: 14px;
+    }
+    .info{
+        text-align: center;
+        font-size: 14px;
+    }
+    a{
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 18;
+    }
+    ul li{
+        list-style: none;
+    }
+/*Texto*/
+
+/*Cuerpo*/
+    .capsula{
+        margin: 3% 80% 10% 0%;
+        border: 20px 100px 20px 0px;
+        padding: 20px 100px 20px 0px;
+        width: 100%;
+    }
+    .sitioTuristico{
+        margin: 3% 80% 10% 0%;
+        border: 20px 100px 20px 0px;
+        padding: 20px 100px 20px 0px;
+        width: 100%;
+    }
+/*Cuerpo*/
+
+/*Imagenes*/
+    .iconoGrande{
+        width: 350px;
+        padding-right: 15px;
+        margin-right: 5%;
+    }
+    .imagenTurismo{
+        width: 350px;
+        padding-right: 15px;
+        margin-right: 5%;
+    }
+/*Imagenes*/
+
+footer{
+    width: 100%;
+    padding-top: 5%;
+    margin-top: 15px;
+}
+}
